@@ -1,4 +1,4 @@
-# Landing Page do Grupo de Teatro - IFPI Picos
+# teste 2 
 
 Bem-vindo à landing page do Grupo de Teatro do Instituto Federal do Piauí (IFPI) - Campus Picos! Aqui, você encontrará informações sobre as nossas montagens anuais, além de detalhes emocionantes sobre os bastidores das produções teatrais realizadas pelos talentosos alunos do IFPI - Picos.
 
