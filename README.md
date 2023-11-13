@@ -16,8 +16,9 @@ Este projeto tem como objetivo criar uma presença online para o Grupo de Teatro
 ## Tecnologias Utilizadas
 
 - **HTML5:** Estruturação semântica para nossas páginas web. <img src="./icone/html.png" width="26"/>
-- **CSS3:** Estilo e design atraente para nossas interfaces. <img src="./icone/icons8-css3-96.png" width="16"/>
-- **JavaScript:** Interatividade e dinamismo em nossos projetos. <img src="link_para_icone_js" width="16"/>
-- **Bootstrap:** Framework para desenvolvimento ágil e responsivo. <img src="link_para_icone_bootstrap" width="16"/>
-- **Figma Canvas:** Ferramentas de design para colaboração e prot
+- **CSS3:** Estilo e design atraente para nossas interfaces. <img src="./icone/icons8-css3-96.png" width="26"/>
+- **JavaScript:** Interatividade e dinamismo em nossos projetos. <img src="./icone/js.png" width="26"/>
+- **Bootstrap:** Framework para desenvolvimento ágil e responsivo. <img src="./icone/icons8-logo-bootstrap-96.png" width="26"/>
+- **Figma:** Ferramentas de design para colaboração de prototipos  <img src="./icone/icons8-figma-96.png" width="26"/>
+- **Canvas:** Ferramentas de design para colaboração de prototipos (Logo tipos)  <img src="./icone/icons8-aplicativo-canva-64.png" width="26"/>
 
