@@ -1,0 +1,23 @@
+:root{
+    --primaria: #000000ea;
+    --segundaria: #fafafa;
+    --terciaria: #d5c8;
+
+}
+#inicio{
+   /* background-color: var(--primaria);*/
+}
+h1,h2,h3,h4,ul,p{
+    /* color: var(--segundaria ) !important;*/
+}
+.logo{
+    width:5rem !important;
+    border-radius: 50%  !important;
+}
+#repertorio{
+    background-color: var(--primaria) !important; 
+    border-radius: 10px !important;
+}
+.repertorio2{
+    color: var(--segundaria ) !important;
+}
