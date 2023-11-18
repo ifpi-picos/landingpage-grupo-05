@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="estilo.scss">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -289,6 +289,34 @@
         </div>
       </div>
     </section>
+
+    <section class="container-fluid contact-section">
+      <div class="container">
+        <h2>Entre em contato conosco</h2>
+        <form action="#" method="post">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nome">Nome:</label>
+              <input type="text" class="form-control" id="nome" name="nome" required>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="telefone">Telefone:</label>
+              <input type="tel" class="form-control" id="telefone" name="telefone" required>
+            </div>
+          </div>
+          <div class="form-group col-md-8">
+            <label for="email">E-mail:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="assunto">Assunto:</label>
+            <input type="text" class="form-control" id="assunto" name="assunto" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+       
   
   </main>
   <footer>
@@ -316,6 +344,10 @@
     <script>
       const carousel = new bootstrap.Carousel('#myCarousel')
     </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
 </body>
 
 </html>
