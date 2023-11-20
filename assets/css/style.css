@@ -83,13 +83,9 @@ footer{
     border-radius: 50%;
     margin: 0 10px;
 }
-
-
-
-
 /* Estilos para o rodapé */
 footer {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -105,3 +101,9 @@ footer a {
     margin: 10px;
     display: block; /* Garante que cada link seja exibido em uma linha */
 }
+
+
+.carousel-control-prev, .carousel-control-next {
+    font-size: 3rem !important; /* Ajuste o tamanho conforme necessário */
+    color: #000 !important; /* Cor das setas (substitua pela cor desejada) */
+  }
