@@ -138,5 +138,22 @@ p{
     font-family: 'Roboto', sans-serif !important;
 }
 
+.quadrado-rosa {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color: var(--primaria);
+    left: 12px;
+    top: 20%;
+    z-index: -1;
+}
+#paraquem img {
+    width: 95%;
+}
+
+#paraquem .colunaimg {
+    position: relative;
+    margin-bottom: 10%;
+}
 
  
