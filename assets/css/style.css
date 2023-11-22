@@ -120,7 +120,7 @@ footer a {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6); /* Aumenta a sombra ao passar o mouse */
 }
 h2{
-    color:  rgb(41, 41, 41)!important;
+    color:  #612f74!important;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
@@ -132,8 +132,11 @@ p{
     
   
 }
-.menu{
-    font-family: 'Roboto', sans-serif;
+
+
+.lista,input,button,label{
+    font-family: 'Roboto', sans-serif !important;
 }
+
 
  
