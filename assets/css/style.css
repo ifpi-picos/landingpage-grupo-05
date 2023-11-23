@@ -96,8 +96,8 @@ footer {
 
 /* Estilos para os links no rodapé */
 footer a {
-    color: #fff;
-    text-decoration: none;
+    color: #f1c9ff;
+    text-decoration:underline;
     margin: 10px;
     display: block; /* Garante que cada link seja exibido em uma linha */
 }
@@ -120,13 +120,14 @@ footer a {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6); /* Aumenta a sombra ao passar o mouse */
 }
 h2,h1{
+    font-size: 50px;
     color:  #3c164b!important;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 p{
     font-family: 'Roboto', sans-serif;
-    font-size: medium;
+    font-size: 18px;
     /*text-align: left; 
     width: 30em;  Aproximadamente 11 palavras por linha (dependendo do tamanho da palavra) */
     
@@ -135,6 +136,7 @@ p{
 
 
 .lista,input,button,label{
+    font-size: 18px;
     font-family: 'Roboto', sans-serif !important;
 }
 
@@ -166,3 +168,54 @@ p.no-break {
     width: 100%;
   }
   
+a{
+    color: rgb(209, 23, 23);
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+h3{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+i{
+    font-size: 30px;
+    color: rgb(209, 23, 23);
+    margin-right: 10px;
+}
+
+#contato{
+    top: 100px;     
+    margin-left: 60%;
+}
+#Main_Body{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+    #Main_Body{
+        display: flex;
+        flex-direction: column; 
+    }
+    .home{
+        height: 100%;
+    }
+    
+  }
+  
+  @media screen and (max-width: 480px) {
+   
+    
+  }
