@@ -149,6 +149,15 @@ p{
     top: 20%;
     z-index: -1;
 }
+
+#sobre {
+    padding-bottom: 5%;
+}
+
+#topicos {
+    padding-bottom: 5%;
+}
+
 #sobre img {
     width: 95%;
 }
@@ -196,10 +205,15 @@ i{
     margin-right: 10px;
 }
 
-#contato{
-    top: 100px;     
-    margin-left: 60%;
+/* #equipe{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
+#contato{
+    padding-top: 5px;
+    padding-bottom: 5px;
+} */
 
 #container{
 }
@@ -220,6 +234,14 @@ i{
   }
   
   @media screen and (max-width: 480px) {
-   
+    #Main_Body{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .home{
+        height: 100%;
+    }
+    
     
   }
