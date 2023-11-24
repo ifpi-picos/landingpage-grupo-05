@@ -69,6 +69,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #000 !important;
 }
 
+
 footer{
    text-align: center;
    padding-top: 10px;
@@ -82,24 +83,6 @@ footer{
     height: 50px;
     border-radius: 50%;
     margin: 0 10px;
-}
-/* Estilos para o rodapé */
-footer {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-/* Estilos para os links no rodapé */
-footer a {
-    color: #f1c9ff;
-    text-decoration:underline;
-    margin: 10px;
-    display: block; /* Garante que cada link seja exibido em uma linha */
 }
 
 
@@ -122,22 +105,35 @@ footer a {
 h2,h1{
     font-size: 50px;
     color:  #3c164b!important;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
+
+h3{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 p{
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     /*text-align: left; 
     width: 30em;  Aproximadamente 11 palavras por linha (dependendo do tamanho da palavra) */
     
-  
+    
 }
 
 
 .lista,input,button,label{
     font-size: 18px;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .quadrado-rosa {
@@ -151,11 +147,23 @@ p{
 }
 
 #sobre {
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
 
 #topicos {
-    padding-bottom: 5%;
+    padding-top: 0%;
+    padding-bottom: 3%;
+}
+
+#objetivo {
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+
+#metodologia {
+    padding-top: 10%;
+    padding-bottom: 3%;
 }
 
 #sobre img {
@@ -175,8 +183,8 @@ p.no-break {
     background-color: black;
     color: white;
     width: 100%;
-  }
-  
+}
+
 a{
     color: rgb(209, 23, 23);
     text-decoration: none;
@@ -187,17 +195,6 @@ a:hover{
     text-decoration: none;
 }
 
-h3{
-    font-size: 50px;
-    font-weight: bold;
-
-}
-
-h4{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    font-weight: bold;
-}
 
 i{
     font-size: 30px;
@@ -216,9 +213,30 @@ i{
 } */
 
 #container{
+    height: min-content;
 }
 
+/* Estilos para o rodapé */
+footer {
+    padding-bottom: 100px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Estilos para os links no rodapé */
+footer a {
+    color: #f1c9ff;
+    text-decoration:underline;
+    margin: 10px;
+    display: block; /* Garante que cada link seja exibido em uma linha */
+}
 #Main_Body{
+    height: auto;
     display: flex;
     flex-direction: column;
 }
@@ -228,20 +246,23 @@ i{
         flex-direction: column; 
     }
     .home{
-        height: 100%;
+        height: auto;
     }
-    
-  }
-  
-  @media screen and (max-width: 480px) {
+    footer{
+        height: auto;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 480px) {
     #Main_Body{
         display: flex;
         flex-direction: column; 
     }
-
+    
     .home{
-        height: 100%;
+        height: auto;
     }
+}
     
     
-  }
