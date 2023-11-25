@@ -14,9 +14,9 @@ Este projeto tem como objetivo criar uma presença online para o Grupo de Teatro
 
 ## Tecnologias Utilizadas
 
-- **HTML5:** Estruturação semântica para nossas páginas web. <img src="./icone/html.png" width="36"/>
-- **CSS3:** Estilo e design atraente para nossas interfaces. <img src="./icone/icons8-css3-96.png" width="36"/>
-- **JavaScript:** Interatividade e dinamismo em nossos projetos. <img src="./icone/js.png" width="36"/>
-- **Bootstrap:** Framework para desenvolvimento ágil e responsivo. <img src="./icone/icons8-logo-bootstrap-96.png" width="36"/>
-- **Figma:** Ferramentas de design para colaboração de protótipos  <img src="./icone/icons8-figma-96.png" width="36"/>
-- **Canvas:** Ferramentas de design para colaboração de protótipos (Logotipos)  <img src="./icone/icons8-aplicativo-canva-64.png" width="36"/>
+- **HTML5:** Estruturação semântica para nossas páginas web. <img src="./icone/html.png" width="24"/>
+- **CSS3:** Estilo e design atraente para nossas interfaces. <img src="./icone/icons8-css3-96.png" width="24"/>
+- **JavaScript:** Interatividade e dinamismo em nossos projetos. <img src="./icone/js.png" width="24"/>
+- **Bootstrap:** Framework para desenvolvimento ágil e responsivo. <img src="./icone/icons8-logo-bootstrap-96.png" width="24"/>
+- **Figma:** Ferramentas de design para colaboração de protótipos  <img src="./icone/icons8-figma-96.png" width="24"/>
+- **Canvas:** Ferramentas de design para colaboração de protótipos (Logotipos)  <img src="./icone/icons8-aplicativo-canva-64.png" width="24"/>
