@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Landing Page do Grupo de Teatro - IFPI Picos
 
 
