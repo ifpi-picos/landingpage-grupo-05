@@ -70,14 +70,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-footer{
-   text-align: center;
-   padding-top: 10px;
-   background-color: #000;
-   color: #fff;
-   padding: 20px;
-   text-align: center;
+footer {
+    text-align: center;
+    padding-top: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
+
 .profile-image {
     width: 50px;
     height: 50px;
@@ -86,52 +87,69 @@ footer{
 }
 
 
-.carousel-control-prev, .carousel-control-next {
-    font-size: 3rem !important; /* Ajuste o tamanho conforme necessário */
-    color: #000 !important; /* Cor das setas (substitua pela cor desejada) */
+.carousel-control-prev,
+.carousel-control-next {
+    font-size: 3rem !important;
+    /* Ajuste o tamanho conforme necessário */
+    color: #000 !important;
+    /* Cor das setas (substitua pela cor desejada) */
 }
 
 
-.card-body{
-    border: 2px solid #dad7d7 !important; /* Cor da borda e largura da borda */
-    border-radius: 10px; /* Borda arredondada (opcional) */
-    padding: 15px; /* Espaçamento interno para dar espaço à borda */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para criar efeito de levitação */
-    transition: box-shadow 0.3s ease-in-out; 
+.card-body {
+    border: 1px solid #dad7d7 !important;
+    /* Cor da borda e largura da borda */
+    border-radius: 0 0 10px 10px;
+    /* Borda arredondada (opcional) */
+    padding: 15px;
+    /* Espaçamento interno para dar espaço à borda */
+    transition: box-shadow 0.3s ease-in-out;
 }
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    /* Borda arredondada (opcional) */
+}
+
 .card:hover {
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6); /* Aumenta a sombra ao passar o mouse */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
+    /* Aumenta a sombra ao passar o mouse */
 }
-h2,h1{
+
+h2,
+h1 {
     font-size: 50px;
-    color:  #3c164b!important;
+    color: #3c164b !important;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 
-h3{
+h3 {
     font-size: 50px;
     font-weight: bold;
-    
+
 }
 
-h4{
+h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: bold;
 }
 
-p{
+p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     /*text-align: left; 
     width: 30em;  Aproximadamente 11 palavras por linha (dependendo do tamanho da palavra) */
-    
-    
+
+
 }
 
 
-.lista,input,button,label{
+.lista,
+input,
+button,
+label {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif !important;
 }
@@ -142,6 +160,7 @@ p{
     /* /* dar profundidade  */
     box-shadow: 2px 4px 8px rgba(123, 115, 115, 0.5);
 }
+
 .text-sobre {
     text-align: justify;
 }
@@ -187,18 +206,18 @@ p.no-break {
     width: 100%;
 }
 
-a{
+a {
     color: rgb(209, 23, 23);
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: white;
     text-decoration: none;
 }
 
 
-i{
+i {
     font-size: 30px;
     color: rgb(255, 255, 255);
     margin-right: 10px;
@@ -214,16 +233,16 @@ i{
     padding-bottom: 5px;
 } */
 
-#container{
+#container {
     height: min-content;
 }
 
-#card{
+#card {
     width: 12rem;
     margin: 10px;
 }
 
-#card img{
+#card img {
     height: 150PX;
     object-fit: cover;
 }
@@ -244,46 +263,49 @@ footer {
 footer a {
     font-size: 20px;
     color: #d3cbd6;
-    text-decoration:underline;
+    text-decoration: underline;
     margin: 10px;
-    display: block; /* Garante que cada link seja exibido em uma linha */
+    display: block;
+    /* Garante que cada link seja exibido em uma linha */
 }
-#Main_Body{
+
+#Main_Body {
     height: auto;
     display: flex;
     flex-direction: column;
 }
+
 @media screen and (max-width: 768px) {
-    #Main_Body{
+    #Main_Body {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
     }
-    .home{
-        height: auto;
+
+    .home {
+        height: 100vh;
     }
-    footer{
+
+    footer {
         height: auto;
         display: flex;
     }
 }
 
 @media screen and (max-width: 480px) {
-    #Main_Body{
+    #Main_Body {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
     }
-    
-    .home{
-        height: auto;
+
+    .home {
+        height: 100vh;
     }
 }
-#elenco{
-    text-align: center;
-}  
 
-.nada{
+#elenco {
+    text-align: center;
+}
+
+.nada {
     color: #000;
 }
-
-
-    
