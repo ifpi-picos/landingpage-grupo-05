@@ -8,9 +8,9 @@ Este projeto tem como objetivo criar uma presença online para o Grupo de Teatro
 
 ## Desenvolvedores
 
-- [Edivansanto5](https://github.com/Edivansanto5)
-- [megusta01](https://github.com/megusta01)
-- [JeanCarlos899](https://github.com/JeanCarlos899)
+- [![Edivansanto5](https://img.shields.io/badge/Edivansanto5-GitHub-blueviolet)](https://github.com/Edivansanto5)
+- [![megusta01](https://img.shields.io/badge/megusta01-GitHub-blueviolet)](https://github.com/megusta01)
+- [![JeanCarlos899](https://img.shields.io/badge/JeanCarlos899-GitHub-blueviolet)](https://github.com/JeanCarlos899)
 
 ## Tecnologias Utilizadas
 
