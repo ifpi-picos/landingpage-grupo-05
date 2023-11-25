@@ -136,19 +136,21 @@ p{
     font-family: Arial, Helvetica, sans-serif !important;
 }
 
-.quadrado-rosa {
-    position: absolute;
-    width: 90%;
-    height: 100%;
-    background-color: var(--primaria);
-    left: 12px;
-    top: 20%;
-    z-index: -1;
+.div-text-sobre {
+    background-color: #2c1534;
+    border-radius: 10px;
+    /* /* dar profundidade  */
+    box-shadow: 2px 4px 8px rgba(123, 115, 115, 0.5);
 }
+.text-sobre {
+    text-align: justify;
+}
+
 
 #sobre {
     padding-top: 2%;
     padding-bottom: 1%;
+    background-color: #000;
 }
 
 #topicos {
