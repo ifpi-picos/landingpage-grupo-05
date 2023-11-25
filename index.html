@@ -1,118 +1,578 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="assets/img/masks-theater-solid.svg" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.scss">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
+    rel="stylesheet">
+  <title>Document</title>
 </head>
-<body>
-    <header>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-            
-            <div class="container justify-content-end">
-          
-            <img src="./logos/logo fundo preto.png" alt="imagem da logo" class="logo">
-            <p> Retalhos de Teatro</p>
-              <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav" justife->
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Fotos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contatos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Apresentações</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
-                  </li>
-                
-                </ul>
-              </div>
+<!--Navbar(menu)-->
+<body class="Main_Body">
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">
+          <i class="fas fa-theater-masks"></i>
+          RETALHOS DE <strong>TEATRO</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+          aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#sobre">SOBRE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#objetivo">OBJETIVO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#metodologia">METODOLOGIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#instrutor">INSTRUTOR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" data-toggle="modal" data-target=".bd-example-modal-lg"
+                href="#">REPERTÓRIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contato">CONTATO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Home -->
+    <section class="home container-fluid">
+      <div class="container home-content d-flex align-items-center justify-content-start h-100">
+        <div class="row">
+          <div class="col-lg-6 w-100 justify-content-center text-center">
+            <img class="w-75 rounded-circle" src="assets/img/logos/logo fundo preto.png" alt="">
+            <p class="text-white">Instituto Federal do Piauí - IFPI - Campus Picos</p>
+            <a href="#" class="btn btn-outline-success w-75" data-toggle="modal" data-target=".bd-example-modal-lg">
+              Veja nosso repertório!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre o Teatro -->
+    <section id="teatro" class="container mb-5">
+      <div class="row">
+        <h1 class="tituloprincipal mt-5 text-center">CURIOSIDADE SOBRE O TEATRO</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+          <div class="quadrado-rosa rounded"></div>
+          <img src="assets/img/teatro greg.jpg" alt="teatro" class="img-fluid rounded h-75">
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+          <p>
+            O teatro, assim como outras formas artísticas, aprimora habilidades criativas, intelectuais e promove a
+            cognição e relacionamento interpessoal.
+          </p>
+          <p>
+            Milenar e explorando a condição humana, o teatro é uma forma artística que une comunidades, preserva
+            tradições
+            culturais e desenvolve habilidades pessoais, como empatia e trabalho em equipe. Sua diversidade, do clássico
+            ao contemporâneo, reflete sua capacidade de adaptação ao longo do tempo. Fundamental na comunicação, o
+            teatro é
+            uma expressão poderosa que transcende culturas, transmitindo valores e enriquecendo a compreensão coletiva
+            do mundo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre o Grupo -->
+    <section id="sobre" class="container-fluid">
+      <div class="container mb-4">
+        <div class="row mt-3 mb-4">
+          <h1 class="tituloprincipal text-center text-white">SOBRE O GRUPO</h1>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-6 d-flex flex-column justify-content-center text-white div-text-sobre p-4">
+            <p class="text-sobre">
+              O grupo Retalhos de Teatro anualmente elabora uma produção teatral da dramaturgia brasileira e mundial
+              com os adolescentes envolvendo o fazer e o apresentar, além de estimular a formação do público para
+              apreciar um texto teatral. Os ensaios envolvem a investigação do espaço cênico, a pesquisa do movimento
+              corporal nesse espaço, a expressão vocal e rítmica do aluno-ator, que também participa da investigação
+              dos elementos que compõem o espetáculo: cenário, figurino, iluminação e sonoplastia, pertinentes à
+              produção teatral. Além de contribuir com a atividade artístico-cultural no instituto, o grupo
+              possibilita o intercâmbio de experiências entre os adolescentes.</P>
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center">
+            <div class="quadrado-rosa rounded"></div>
+            <img src="assets/img/elenco/Raimunda Pinto, sim senhor!.jpg" alt="alunos da mambee"
+              class="img-fluid rounded w-100">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Objetivo e Metodologia -->
+    <section id="topicos" class="container-fluid objective">
+      <div class="container">
+        <div class="objective-container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 id="objetivo">OBJETIVO </h1>
+              <ul class="lista">
+                <li>Oferecer conhecimentos básicos sobre o teatro e colocá-los em prática.</li>
+                <li>Estimular a percepção de si mesmo e do outro por um meio de expressão corporal.</li>
+                <li>Conscientizar sobre a importância do trabalho criativo em equipe.</li>
+                <li>Desenvolver o senso de responsabilidade e o espírito crítico</li>
+                <li> Desenvolver sua capacidade criativa e autoconfiança.</li>
+                <li>Desenvolver a observação do mundo que o cerca.</li>
+              </ul>
             </div>
-          </nav>
+            <div class="col-lg-6">
+              <h1 id="metodologia">METODOLOGIA</h1>
+              <ul class="lista">
+                <li>Exercícios de desinibição e concentração.</li>
+                <li>Exercícios de expressão corporal e técnica vocal;</li>
+                <li>Exercícios de interpretação, jogos cênico, improvisações e leituras dramáticas;</li>
+                <li>Montagem do espetáculo.</li>
+              </ul>
+            </div>
+          </div>
+    </section>
 
-    </header>
-    <main >
-        <section class="container-fluid" id="inicio">
-            <div class="conteiner pt-5">
+    <!-- Repertório -->
+    <section>
+      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <section class="about" class="container-fluid">
+              <div class="container">
                 <div class="row">
-                  <div class="col-lg-6">
-                    <h1>RETALHOS DE TEATRO</h1>
-                      <h3> Sobre o Teatro</h3>
-                      <p>O teatro, assim como as demais linguagens artísticas, não só contribui para o aprimoramento das capacidades criativas e intelectivas, como também para a potencialização da cognição e relacionamento interpessoal.</p>
-
-                      <p>O grupo Retalhos de Teatro tem o propósito de criar um ambiente favorável às práticas teatrais no IFPI campus Picos e disponibilizar essa arte para alunos desta instituição. O que é teatro? Como lidar com as emoções no palco? O que realmente faz o ator em cena? Quais são as habilidades que precisam desenvolver? De onde vem a personagem? Através de jogos, improvisos e trabalho com textos dramáticos, o aluno entrará em contato com grandes experiências teatrais.
-                      </p>
+                  <h2 class="text-center mt-4 mb-4">Todos os Repertórios</h2>
+                  <div class="col-lg-12">
+                    <div class="card mt-4 mb-4">
+                      <div class="card-body">
+                        <h5 class="card-title ">
+                          <h5> O Auto da Barca do Inferno – Gil Vicente</h5>
+                          <section class="container-fluid objective">
+                            <div class="container">
+                              <div class="objective-container">
+                                <div class="row">
+                                  <div class="col-lg-4">
+                                    <img src="./assets/img/img-repetorio/auto da barca.jpeg" alt="" class="w-100">
+                                  </div>
+                                  <div class="col-lg-8">
+                                    <p> É uma sátira impiedosa da sociedade, suas críticas não poupam ninguém –
+                                      Comerciante, Religioso, Político e Magistrado, mas também Bêbado e Fofoqueiro.
+                                      Cada personagem traz, nas roupas ou nas mãos, os símbolos de seus pecados e deles
+                                      não podem se desfazer; não há defesa contra as acusações do Diabo ou do Anjo.
+                                      Ninguém é salvo ou condenado em função de sua classe social. O que conta é o seu
+                                      comportamento com relação ao próximo, é sua verdade moral ou ética, sua
+                                      consciência acerca dos atos que cometeu. Escrita há tantos anos, esta peça foi
+                                      adaptada pelo grupo Retalhos de Teatro surpreendendo com a atualidade dos
+                                      personagens.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="card mt-4 mb-4">
+                      <div class="card-body">
+                        <h5 class="card-title ">
+                          <h5>O Auto da Camisinha – José Mapurunga</h5>
+                          <section class="container-fluid objective">
+                            <div class="container">
+                              <div class="objective-container">
+                                <div class="row">
+                                  <div class="col-lg-4">
+                                    <img src="./assets/img/img-repetorio/auto_camisinha.jpeg" alt="" class="w-100">
+                                  </div>
+                                  <div class="col-lg-8">
+                                    <p> O espetáculo conta a história de um casal sertanejo, Benedito e Lionor,
+                                      preparando sua primeira noite de amor. Lionor, uma moça ardente e experiente,
+                                      insiste que Benedito, um rapaz ingênuo e apaixonado, use a camisinha para que a
+                                      relação seja prazerosa e segura. Benedito, inexperiente e confuso com a situação,
+                                      sai em busca de respostas para suas dúvidas. Ao final da peça, Benedito, com a
+                                      orientação de seus protetores (Dona Sinhá Costureira e Padrinho), aprende que a
+                                      camisinha é a chave para o amor sem riscos à saúde.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                      </div>
+                    </div>
                   </div>
 
-                  
-                  <div class="col-lg-6">
-                    <h3>SOBRE O GRUPO</h3>
-                      <p>O teatro, assim como as demais linguagens artísticas, não só contribui para o aprimoramento das capacidades criativas e intelectivas, como também para a potencialização da cognição e relacionamento interpessoal. O grupo Retalhos de Teatro tem o propósito de criar um ambiente favorável às práticas teatrais no IFPI campus Picos e disponibilizar essa arte para alunos desta instituição. O que é teatro? Como lidar com as emoções no palco? O que realmente faz o ator em cena? Quais são as habilidades que precisam desenvolver? De onde vem a personagem? Através de jogos, improvisos e trabalho com textos dramáticos, o aluno entrará em contato com grandes experiências teatrais.</p>
-
-                      <p>O grupo Retalhos de Teatro anualmente elabora uma produção teatral da dramaturgia brasileira e mundial com os adolescentes envolvendo o fazer e o apresentar, além de estimular a formação do público para apreciar um texto teatral. Os ensaios envolvem a investigação do espaço cênico, a pesquisa do movimento corporal nesse espaço, a expressão vocal e rítmica do aluno-ator, que também participa da investigação dos elementos que compõem o espetáculo:  cenário, figurino, iluminação e sonoplastia, pertinentes à produção teatral. Além de contribuir com a atividade artístico-cultural no instituto, o grupo possibilita o intercâmbio de experiências entre os adolescentes.</p>
-
+                  <div class="col-lg-12">
+                    <div class="card mt-4 mb-4">
+                      <div class="card-body" >
+                        <h5 class="card-title ">
+                          <h5> O Vendedor de Palavras – Fernando Lira </h5>
+                          <section class="container-fluid objective">
+                            <div class="container">
+                              <div class="objective-container">
+                                <div class="row">
+                                  <div class="col-lg-4">
+                                    <img src="./assets/img/img-repetorio/vendendor-palavra.jpeg" alt="" class="w-100">
+                                  </div>
+                                  <div class="col-lg-8">
+                                    <p> Um homem é preso por comercializar algo inusitado, palavras. Ele vende palavras
+                                      de todos as espécies: palavras engraçadas, palavras de amor, palavras tristes,
+                                      palavras que deixam dúvidas, palavras de ódio, afirmações, palavrões, elogios,
+                                      discursos, monólogos diálogos; mas as palavras mais vendidas são as mentiras,
+                                      principalmente para políticos corruptos.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                      </div>
                     </div>
-                </div>
-                
-            </div>
-        </section>
-        <section id="inicio">
-          <div class="conteiner">
-            <div class="row">
-              <div class="col-lg-6">
-                <h2>OBJETIVO</h2>
-                <ul>
-                  <li>Oferecer conhecimentos básicos sobre o teatro e colocá-los em prática.</li>
-                  <li>Estimular a percepção de si mesmo e do outro por um meio de expressão corporal.</li>
-                  <li>Conscientizar sobre a importância do trabalho criativo em equipe.</li>
-                  <li>Desenvolver o senso de responsabilidade e o espírito crítico</li>
-                  <li>Desenvolver sua capacidade criativa e autoconfiança.</li>
-                  <li>Desenvolver a observação do mundo que o cerca.</li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <h2>METODOLOGIA</h2>
-                <ul>
-                  <li>Exercícios de desinibição e concentração.</li>
-                  <li>Exercícios de expressão corporal e técnica vocal;</li>
-                  <li>Exercícios de interpretação, jogos cênico, improvisações e leituras dramáticas;</li>
-                  <li>Montagem do espetáculo.</li>
-                </ul>
-              </div> 
-          </div>
-        </section>
+                  </div>
 
-        <section> 
-          
-          <div class="conteiner" id="repertorio">
-            <div class="row mx-1">
-              <h2 class="repertorio2">REPERTÓRIO:</h2>
-              <div class="col-md-3 d-flex align-items-center">
-                <img src="./img/auto_barca_inferno.jpg" alt="imagem da logo" class="w-25" >
-                
+                  <div class="col-lg-12">
+                    <div class="card mt-4 mb-4">
+                      <div class="card-body">
+                        <h5 class="card-title ">
+                          <h5> Romeu e Julieta – William Shakespeare </h5>
+                          <section class="container-fluid objective">
+                            <div class="container">
+                              <div class="objective-container">
+                                <div class="row">
+                                  <div class="col-lg-4">
+                                    <img src="./assets/img/img-repetorio/romeu-e-juelta.jpeg" alt="" class="w-100">
+                                  </div>
+                                  <div class="col-lg-8">
+                                    <p> A trágica história de amor entre Romeu e Julieta, membros de famílias rivais, na
+                                      Itália do século XVI. Porém o grupo Retalhos de Teatro atualizou a encenação para
+                                      um olhar contemporâneo. Após se apaixonarem perdidamente, os dois jovens, em uma
+                                      tentativa de serem felizes no amor, acabam morrendo. A peça faz reflexões sobre o
+                                      amor e idealiza o sentimento vivenciado pelos protagonistas.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="card mt-4 mb-4">
+                      <div class="card-body">
+                        <h5 class="card-title ">
+                          <h5> A Farsa da Boa Preguiça – Ariano Suassuna </h5>
+                          <section class="container-fluid objective">
+                            <div class="container">
+                              <div class="objective-container">
+                                <div class="row">
+                                  <div class="col-lg-4">
+                                    <img src="./assets/img/img-repetorio/faça.jpeg" alt="" class="w-100">
+                                  </div>
+                                  <div class="col-lg-8">
+                                    <p> A farsa conta a história do poeta popular Joaquim Simão e sua mulher, Nevinha. O
+                                      rico Aderaldo, apaixonado por Nevinha, tenta conquistá-la com a ajuda da diaba
+                                      Andreza. Clarabela, mulher de Aderaldo, está por sua vez apaixonada por Simão, que
+                                      acaba cedendo à tentação e inicia um caso com ela. O poeta popular Simão, é um
+                                      habilidoso contador de histórias, cantador de cordéis e defensor do ócio criativo.
+                                      Uma trama que se desenrola com maestria, revelando a luta entre a boa preguiça
+                                      divina e a inércia demoníaca. Uma dualidade fascinante que nos faz refletir sobre
+                                      a essência da vida e suas escolhas.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="card mt-4 mb-4">
+                      <div class="card-body">
+                        <h5 class="card-title ">
+                          <h5> O Pagador de Promessas – Dias Gomes</h5>
+                          <section class="container-fluid objective">
+                            <div class="container">
+                              <div class="objective-container">
+                                <div class="row">
+                                  <div class="col-lg-4">
+                                    <img src="./assets/img/img-repetorio/pagador-de-promessas.jpeg" alt=""
+                                      class="w-100">
+                                  </div>
+                                  <div class="col-lg-8">
+                                    <p> A obra conta a história trágica de Zé do Burro, que viaja de sua aldeia, no
+                                      interior da Bahia, até Salvador carregando uma cruz. Seu objetivo era depositá-la
+                                      no altar a fim de agradecer a Santa Bárbara (lansã) a salvação de seu burro
+                                      Nicolau, que estava doente. Porém é impedido de entrar na igreja, pois a promessa
+                                      foi feita em um terreiro de candomblé, na tentativa de cumprir sua promessa, ele
+                                      vai se deparando com pessoas que querem ajuda-lo e outras que querem destruí-lo.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="card mt-4 mb-4">
+                      <div class="card-body">
+                        <h5 class="card-title ">
+                          <h5> Raimunda Pinto, Sim Senhor – Chico Pereira</h5>
+                          <section class="container-fluid objective">
+                            <div class="container">
+                              <div class="objective-container">
+                                <div class="row">
+                                  <div class="col-lg-4">
+                                    <img src="./assets/img/img-repetorio/pinto2.jpeg" alt="" class="w-100">
+                                  </div>
+                                  <div class="col-lg-8">
+                                    <p> O espetáculo conta a história de uma jovem piauiense, pobre, feia, leporina
+                                      (lábio defeituoso) e subdesenvolvida, que sonha em cursar enfermagem. Consegue
+                                      vencer na vida longe de sua terra. A história se passa no cenário da 2ª Guerra
+                                      Mundial, precisamente em 1942, no subúrbio da cidade de Teresina, mas o eixo
+                                      geográfico é instável e acompanhamos um percurso retirante passando por Picos PI,
+                                      Petrolina PE, Salvador BA, Rio de Janeiro RJ, logo ela vai viajar pelo mundo. Numa
+                                      dessas cenas, Raimunda está a bordo do Enola Gay, avião que soltou a bomba atômica
+                                      que arrasou as cidades de Hiroshima e Nagazaki. Raimunda Pinto é dona de um
+                                      belíssimo mundo interior.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="card mt-4 mb-4">
+                      <div class="card-body">
+                        <h5 class="card-title ">
+                          <h5> A Farsa do Panelada – José Mapurunga (a atual montagem que está em circulação)</h5>
+                          <section class="container-fluid objective">
+                            <div class="container">
+                              <div class="objective-container">
+                                <div class="row">
+                                  <div class="col-lg-4">
+                                    <img src="./assets/img/img-repetorio/a_farsa_da_panelada.jpg " alt="" class="w-100">
+                                  </div>
+                                  <div class="col-lg-8">
+                                    <p> No Pedaço (um lugar situado entre o Céu e o Inferno), Panelada, um mau caráter
+                                      vendedor de panelas, atormenta a vida de Dona Marica por conta da dívida de uma
+                                      panela de pressão. Porém tudo muda quando Santa Edwiges, a protetora dos
+                                      endividados, e seu fiel conselheiro, Anjo Gabriel, decidem interceder junto à
+                                      mulher, desconjuntando todas as Leis do Pedaço, do Céu, Inferno e do Mercado.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-9 d-flex align-items-center">
-               
-               <p class="repertorio2">O Auto da Barca do Inferno – Gil Vicente - É uma sátira impiedosa da sociedade, suas críticas não poupam ninguém – Comerciante, Religioso, Político e Magistrado, mas também Bêbado e Fofoqueiro. Cada personagem traz, nas roupas ou nas mãos, os símbolos de seus pecados e deles não podem se desfazer; não há defesa contra as acusações do Diabo ou do Anjo. Ninguém é salvo ou condenado em função de sua classe social. O que conta é o seu comportamento com relação ao próximo, é sua verdade moral ou ética, sua consciência acerca dos atos que cometeu. Escrita há tantos anos, esta peça foi adaptada pelo grupo Retalhos de Teatro surpreendendo com a atualidade dos personagens.
-              </p>
-              </div> 
+            </section>
           </div>
-        </section>
-    </main>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    
+        </div>
+      </div>
+    </section>
+
+    <!-- Instrutor do teatro -->
+    <section id="instrutor" class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <h3 class="tituloprincipal my-5 text-center">INSTRUTOR</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-6 colunaimg d-flex justify-content-end">
+            <div class="quadrado-rosa rounded"></div>
+            <img src="assets/img/instrutor teatro.jpg" alt="Professor Jânio" class="img-fluid rounded">
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h4 class="nome_instrutor">Jânio Tavares Leite Macedo</h4>
+            <p class="descricao_instrutor">Mestre em Cultura Popular na Universidade Estadual do Ceará (UECE).
+              Especialista em Arte e Educação e graduado em Artes Cênicas pelo Centro Federal de Educação Tecnológica do Ceará (CEFETCE).
+              Professor de Arte do Instituto Federal do Piauí (IFPI) Campus – Picos, coordena o projeto de extensão Grupo Retalhos de Teatro nessa mesma intituição.
+              Ator e diretor da Associação Grupo Ninho de Teatro e Produções Artísticas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Elenco -->
+    <section class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <h2 class=" mx-auto mt-4 mb-4 col-12" id="elenco">ELENCO</h2>
+          
+          <div class="col-lg-4">
+            <div id="card" style="width: 18rem;">
+                <img src="assets/img/elenco/O auto da barca do inferno.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">O auto da barca do inferno</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div id="card" style="width: 18rem;">
+                <img src="assets/img/elenco/O auto da camizinha.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">O auto da camizinha</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div id="card" style="width: 18rem;">
+                <img src="assets/img/elenco/O vendedor de palavras.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">O vendedor de palavras</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div id="card" style="width: 18rem;">
+                <img src="assets/img/elenco/Romeu e Julieta.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">Romeu e Julieta</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div id="card" style="width: 18rem;">
+                <img src="assets/img/elenco/A farsa da boa preguiça.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">A farsa da boa preguiça</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div id="card" style="width: 18rem;">
+                <img src="assets/img/elenco/O pagador de promessas.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">O pagador de promessas</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mx-auto text-center">
+            <div id="card" style="width: 18rem;">
+                <img src="assets/img/elenco/Raimunda Pinto, sim senhor!.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">Raimunda Pinto, sim senhor!</p>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="container-fluid py-5 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <!-- Parte da Organização -->
+        <div class="col-md-4 text-center">
+          <p class="mb-4">Organização:</p>
+          <div class="row">
+            <div class="col-6">
+              <img src="assets/img/logos/logo_mambee-removebg-preview.png" alt="Logo Mambee" class="w-75">
+            </div>
+            <div class="col-6">
+              <img src="assets/img/logos/IF.png" alt="Logo IFPI" class="w-75">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Parte dos Direitos Autorais e Informações de Contato -->
+        <div class="col-md-8">
+          <div class="row">
+            <!-- Parte dos Direitos Autorais e Créditos da Equipe -->
+            <div id="equipe" class="col-md-6">
+              <p>&copy; 2023. IFPI/MAMBEE. Todos os direitos reservados. <a href="https://github.com/ifpi-picos/landingpage-grupo-05/" target="_blank">Time Bootcamp Grupo05</a></p>
+            </div>
+  
+            <!-- Parte das Informações de Contato -->
+            <div id="contato" class="col-md-6">
+              <div class="contact-info">
+                <p class="d-flex align-items-center" style="font-size: 22px;"> Contato:</p>
+                <ul>
+                  <li class="d-flex align-items-center"><i class="fab fa-instagram" style="color: #ffffff;"></i><a href="https://www.instagram.com/janiotlm/" target="_blank">Instagram</a></li>
+                  <li class="d-flex align-items-center"><i class="fab fa-whatsapp" style="color: #ffffff;"></i><a href="https://api.whatsapp.com/send?phone=558888051010" target="_blank">WhatsApp</a></li>
+                  <li class="d-flex align-items-center"><i class="far fa-envelope" style="color: #ffffff;"></i><a href="mailto:janiotlm@ifpi.edilidade.br">E-mail</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+
+
+
+
+  <script src="https://kit.fontawesome.com/afaa046a39.js" crossorigin="anonymous"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script>
+    const carousel = new bootstrap.Carousel('#myCarousel')
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>

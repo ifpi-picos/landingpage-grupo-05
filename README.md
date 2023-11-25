@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Landing Page do Grupo de Teatro - IFPI Picos
 
 
@@ -19,4 +20,5 @@ Este projeto tem como objetivo criar uma presença online para o Grupo de Teatro
 - **Bootstrap:** Framework para desenvolvimento ágil e responsivo. <img src="./icone/icons8-logo-bootstrap-96.png" width="36"/>
 - **Figma:** Ferramentas de design para colaboração de prototipos  <img src="./icone/icons8-figma-96.png" width="36"/>
 - **Canvas:** Ferramentas de design para colaboração de prototipos (Logo tipos)  <img src="./icone/icons8-aplicativo-canva-64.png" width="36"/>
+
 
