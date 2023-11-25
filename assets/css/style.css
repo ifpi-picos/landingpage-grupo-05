@@ -218,12 +218,12 @@ i{
     height: min-content;
 }
 
-.card{
+#card{
     width: 12rem;
     margin: 10px;
 }
 
-.card img{
+#card img{
     height: 150PX;
     object-fit: cover;
 }
@@ -277,5 +277,13 @@ footer a {
         height: auto;
     }
 }
-    
+#elenco{
+    text-align: center;
+}  
+
+.nada{
+    color: #000;
+}
+
+
     
