@@ -9,9 +9,6 @@ Bem-vindo à landing page do Grupo de Teatro do Instituto Federal do Piauí (IFP
 
 Este projeto tem como objetivo criar uma presença online para o Grupo de Teatro, destacando as produções teatrais realizadas anualmente. Queremos compartilhar nossa paixão pelo teatro e promover as artes cênicas na comunidade do IFPI - Picos.
 
-##  Visão do Grupo
-
-
 ## Tecnologias Utilizadas
 
 - **HTML5:** Estruturação semântica para nossas páginas web. <img src="./icone/html.png" width="36"/>
