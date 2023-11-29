@@ -261,7 +261,7 @@ footer {
 
 /* Estilos para os links no rodapé */
 footer a {
-    font-size: 20px;
+    font-size: 18px;
     color: #d3cbd6;
     text-decoration: underline;
     margin: 10px;
@@ -306,6 +306,21 @@ footer a {
     text-align: center;
 }
 
-.nada {
-    color: #000;
+#teste {
+    width: 40% !important;
+}
+#teste1 {
+    width: 40% !important;
+  
+}
+/* Estilo para remover sublinhado de links */
+a {
+    text-decoration: none !important;
+  
+}
+
+/* Estilo para remover sublinhado de links apenas quando hover */
+a:hover {
+    text-decoration: none !important;
+    color: #8a09bd ;
 }
